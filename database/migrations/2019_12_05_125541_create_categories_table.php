@@ -21,17 +21,17 @@ class CreateCategoriesTable extends Migration
         
         DB::table('categories')->insert(array(
             array(
-                'name' => 'Cake',
+                'name' => 'Торты',
                 'created_at' => DB::raw('CURRENT_TIMESTAMP'),
                 'updated_at' => DB::raw('CURRENT_TIMESTAMP')
             ),
             array(
-                'name' => 'Dessert',
+                'name' => 'Десерты',
                 'created_at' => DB::raw('CURRENT_TIMESTAMP'),
                 'updated_at' => DB::raw('CURRENT_TIMESTAMP')
             ),
             array(
-                'name' => 'Sushi',
+                'name' => 'Суши',
                 'created_at' => DB::raw('CURRENT_TIMESTAMP'),
                 'updated_at' => DB::raw('CURRENT_TIMESTAMP')
             )

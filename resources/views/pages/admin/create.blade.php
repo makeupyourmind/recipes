@@ -59,7 +59,7 @@
     <form id = "sendForm">
         <div style = "margin-top: 90px" class ="select_div">
             <select required class = "custom_select" name="category_id" id = "category_id">
-                <option value = "default" disabled selected>Choose your option</option>
+                <option value = "default" disabled selected>Выберите свой вариант</option>
                 @foreach ($categories as $key => $category)
                     <option value="{{$category->id}}">
                             {{$category->name}}
