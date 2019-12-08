@@ -15,7 +15,6 @@
         "laravel/tinker": "^2.0",
         "laravelcollective/html": "^6.0",
         "intervention/image": "dev-master",
-        "gd": "*",
         "ext-gd":" *"
     },
     "require-dev": {
@@ -23,9 +22,7 @@
         "fzaninotto/faker": "^1.4",
         "mockery/mockery": "^1.0",
         "nunomaduro/collision": "^3.0",
-        "phpunit/phpunit": "^8.0",
-        "gd": "*",
-        "ext-gd":" *"
+        "phpunit/phpunit": "^8.0"
     },
     "config": {
         "optimize-autoloader": true,
